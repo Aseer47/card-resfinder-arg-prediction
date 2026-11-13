@@ -14,14 +14,15 @@ Classification accuracy varies sharply by resistance mechanism class: 100% for b
 
 ## Contents
 
-├── ARG_prediction.ipynb # Primary analysis pipeline (Colab-ready)
-├── arg_resistance_tools.py # Standalone reusable Python tool
-├── example_usage.py # Minimal usage example for the tool
-├── setup.py # pip-installable package setup
-├── README_tool.md # Tool-specific documentation
-├── results/ # Figures, tables, robustness outputs
+```
+├── ARG_prediction.ipynb        # Primary analysis pipeline (Colab-ready)
+├── arg_resistance_tools.py     # Standalone reusable Python tool
+├── example_usage.py            # Minimal usage example for the tool
+├── setup.py                    # pip-installable package setup
+├── README_tool.md              # Tool-specific documentation
+├── results/                    # Figures, tables, robustness outputs
 └── README.md
-
+```
 
 ## Data
 
