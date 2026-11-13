@@ -1,3 +1,27 @@
+# CARD-ResFinder ARG Prediction
+
+Interpretable ML framework for predicting antibiotic resistance genes (ARGs) from protein sequence composition, paired with a CD-HIT-based audit of how redundant two major ARG reference databases actually are before any "cross-database generalization" claim is made.
+
+## Key Findings
+
+An XGBoost classifier trained on amino acid trigram frequencies and physicochemical descriptors separates ARGs from non-ARG proteins with near-ceiling accuracy (AUROC = 0.982, MCC = 0.886), confirmed as genuine signal rather than an artifact via a label-shuffling null baseline (AUROC = 0.508) and tight bootstrap 95% confidence intervals.
+
+CARD and ResFinder, two of the field's most widely used ARG databases, are found to be 96.8-98.7% redundant at the protein sequence level, even at a CD-HIT identity threshold as permissive as 50%, indicating that cross-database generalization claims built on these two resources may largely be evaluating near-duplicate data.
+
+On the small genuinely non-redundant residual of ResFinder sequences (40-100, depending on threshold), the classifier fails completely (0% classified as ARG at any threshold), and SHAP traces this failure to sequence length: non-redundant sequences average ~2.8x longer than the CARD sequences the model was trained on.
+
+Classification accuracy varies sharply by resistance mechanism class: 100% for beta-lactamases (n=351, compact single-domain enzymes) versus 38.5% for efflux pump components (n=13, large multi-domain transporters), demonstrating that the same length/architecture axis explains both this in-distribution mechanism-class gap and the cross-database failure above.
+
+## Contents
+
+├── ARG_prediction.ipynb # Primary analysis pipeline (Colab-ready)
+├── arg_resistance_tools.py # Standalone reusable Python tool
+├── example_usage.py # Minimal usage example for the tool
+├── setup.py # pip-installable package setup
+├── README_tool.md # Tool-specific documentation
+├── results/ # Figures, tables, robustness outputs
+└── README.md
+
 
 ## Data
 
