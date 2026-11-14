@@ -74,7 +74,7 @@ Open `ARG_prediction.ipynb` in Google Colab and run all cells top to bottom. The
 
 If you use this code or the resistance-mechanism/redundancy-audit tool, please cite:
 
-Ruthbah, C.A., Sadi, T.H., Jahan, N.E.S., & Adib, A.N.M.T. (2026). Antibiotic Resistance Gene Prediction from Sequence Composition: Performance, Interpretability, and Database Redundancy. bioRxiv. (DOI to be added upon posting.)
+Ruthbah, C.A., Sadi, T.H., Jahan, N.E.S., & Adib, A.N.M.T. (2026). Machine Learning Prediction of Antibiotic Resistance Genes: Performance, Interpretability, and Cross-Database Redundancy. bioRxiv. (DOI to be added upon posting.)
 
 ## Authors
 
@@ -86,4 +86,4 @@ MIT. CARD and UniProt sequences are redistributed under their original CC BY-SA 
 
 ## Contact
 
-Chowdhury Aseer Ruthbah: chowdhury.aseer.ruthbah@g.brac.ac.bd
+Chowdhury Aseer Ruthbah: chowdhury.aseer.ruthbah@g.bracu.ac.bd
