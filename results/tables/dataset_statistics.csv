@@ -1,0 +1,9 @@
+Dataset,n,mean_len,min_len,max_len
+CARD (raw download),4840,320.6,53,1452
+CARD (filtered + sampled),4835,320.4,53,1452
+Swiss-Prot pool (raw),9424,421.8,50,1963
+Swiss-Prot negatives (filtered),5000,421.6,50,1962
+ResFinder (raw),3164,909.7,237,1998
+ResFinder test (90% CD-HIT),100,923.6,237,1998
+ResFinder test (70% CD-HIT),66,908.0,387,1746
+ResFinder test (50% CD-HIT),40,884.2,387,1746

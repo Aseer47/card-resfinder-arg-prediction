@@ -1,0 +1,4 @@
+CD-HIT Threshold (%),N sequences,Fraction classified as ARG,Mean predicted probability,Median predicted probability
+90,100,0,0.012,0.0113
+70,66,0,0.0125,0.0124
+50,40,0,0.0125,0.0128
