@@ -67,9 +67,7 @@ end-to-end example of both tools.
 
 If you use this code, please cite:
 
-Ruthbah, C.A., Sadi, T.H., Jahan, N.E.S., & Adib, A.N.M.T. (2026). Antibiotic
-Resistance Gene Prediction from Sequence Composition: Performance,
-Interpretability, and Database Redundancy. bioRxiv.
+Ruthbah, C.A., Sadi, T.H., Jahan, N.E.S., & Adib, A.N.M.T. (2026). Machine Learning Prediction of Antibiotic Resistance Genes: Performance, Interpretability, and Cross-Database Redundancy. bioRxiv.
 
 ## License
 
